@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Lesson-10" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Tamar Dobadzishvili" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FB META TAGS -->
+    <meta property="og:url"                content="#" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Our Fb Title" />
+    <meta property="og:description"        content="Our Fb Description" />
+    <meta property="og:image"              content="https://media.prod.bunnings.com.au/api/public/content/eb466bbc377f4c7989a0eb46fe4225c7?v=7e75b07a&t=w1100dpr1" />
+    <title>Lesson-10</title>
+    <link rel="icon" href="images/beach.png" sizes="16x16" />
+    <script
+      src="https://kit.fontawesome.com/88ef498fdd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="header-bg-img">
+      <div class="header-div">
+        <a href="index.html" target="_blank" class="logoimg">
+          <img src="images/headerlogo.svg" alt="logoimg" />
+        </a>
+        <nav class="navigation">
+          <ul class="nav">
+            <li>
+              <a class="list active" href="index.html"> HOME </a>
+            </li>
+            <li class="nav-list">
+              <a class="list" href="#">Rooms</a>
+              <i class="fas fa-chevron-down"></i>
+            </li>
+            <li class="nav-list">
+              <a class="list" href="#">Restaurant</a>
+            </li>
+            <li class="nav-list">
+              <a class="list" href="#">About us</a>
+            </li>
+            <li class="nav-list">
+              <a class="list" href="#">Blog</a>
+            </li>
+            <li class="nav-list">
+              <a class="list" href="#">contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger-bar">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div class="aboutus">
+        <h5 class="maintitle">Contact</h5>
+        <a href="index.html" class="info">Home</a>
+        <div class="divider"></div>
+        <a href="#" class="info">Contact</a>
+      </div>
+    </header>
+    <section class="section1">
+      <div class="mapdiv">
+        <iframe
+          id
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.9343099561625!2d44.79441371521506!3d41.70035377923666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cdd79711aef%3A0x44746a96faaab9b4!2zMjMg4YOo4YOd4YOX4YOQIOGDoOGDo-GDoeGDl-GDkOGDleGDlOGDmuGDmOGDoSDhg5Lhg5Dhg5vhg5bhg5jhg6Dhg5gsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1637074330743!5m2!1ska!2sge"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="section3-title">
+        <h5 class="photos">CONTACT</h5>
+        <h2 class="photos-title">Contact us to get free support</h2>
+      </div>
+      <form action="#"></form>
+      <div class="form-div">
+        <div class="description-div">
+          <label for="text"></label>
+          <textarea
+            class="textarea"
+            name="textarea"
+            id="text"
+            cols="30"
+            rows="10"
+            placeholder="Description"
+          ></textarea>
+        </div>
+        <div class="right-section">
+          <label for="subject"></label>
+          <input
+            class="input-info"
+            type="text"
+            id="subject"
+            placeholder="Subject"
+            required
+          />
+
+          <label for="namesurname"></label>
+          <input
+            class="input-info"
+            type="text"
+            id="namesurname"
+            placeholder="Name/Surname"
+            required
+          />
+
+          <label for="email"></label>
+          <input
+            class="input-info"
+            type="text"
+            id="email"
+            placeholder="Email"
+            required
+          />
+
+          <button class="send-button" type="submit">
+            Send
+            <i class="far fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+      <div class="info-container">
+        <div class="contact-div">
+          <div class="button">
+            <img class="button-img" src="images/mail.png" alt="mail-icon" />
+          </div>
+          <h3 class="contact-title">Email</h3>
+          <h4 class="contact-info">example@yahoo.com</h4>
+          <h4 class="contact-info">exampleemail2@yahoo.com</h4>
+        </div>
+        <div class="contact-div">
+          <div class="button">
+            <img class="button-img" src="images/phone.png" alt="phone-icon" />
+          </div>
+          <h3 class="contact-title">Phone</h3>
+          <h4 class="contact-info">+0 320 422 4254</h4>
+          <h4 class="contact-info">+0 342 552 523</h4>
+        </div>
+        <div class="contact-div">
+          <div class="button">
+            <img
+              class="button-img"
+              src="images/map-pin.png"
+              alt="location-icon"
+            />
+          </div>
+          <h3 class="contact-title">Location</h3>
+          <h4 class="contact-info">Main Str Chicago Ilinois</h4>
+          <h4 class="contact-info">Main Street New York City</h4>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="section3-title">
+        <h3 class="photos">Photos</h3>
+        <h2 class="photos-title">
+          See our latest photos <br />
+          from restaurant and hotel
+        </h2>
+      </div>
+      <div class="img-div">
+        <img class="img-section" src="images/Coast.png" alt="coast-img" />
+        <img class="img-section" src="images/View.png" alt="View-img" />
+        <img class="img-section"src="images/home.png" alt="home-img" />
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="socialinfo">
+          <h3 class="socialinfo-title">Zetta Hotels</h3>
+          <p class="socialinfo-paragraph">
+            Our hotel is an image of quality and profesionalism combined with
+            hard work and precision. You can expect only the best services from
+            our staff.
+          </p>
+          <div class="logos">
+            <a class="social-logo" href="#">
+              <img src="images/001-facebook.svg" alt="facebook-icon"
+            /></a>
+            <a class="spcial-logo" href="#">
+              <img src="images/002-twitter.svg" alt="twitter-icon"
+            /></a>
+            <a class="social-logo" href="#">
+              <img src="images/004-google-plus.svg" alt="googleplus-icon"
+            /></a>
+          </div>
+        </div>
+        <div class="list-div">
+          <h3 class="list-title">Useful Links</h3>
+          <ul>
+            <li class="footer-li">
+              <a class="footer-li" href="#">Blog</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-li" href="#">Rooms</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-li" href="#">Gift Card</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-li" href="#">Testimanials</a>
+            </li>
+          </ul>
+        </div>
+        <div class="list-div">
+          <h3 class="list-title">Privacy</h3>
+          <ul>
+            <li class="footer-li">
+              <a class="footer-li" href="#">Career</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-li" href="#">About us</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-li" href="#">Contact us</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-li" href="#">Services</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list-div">
+          <h3 class="list-title">Contact info</h3>
+          <ul>
+            <li class="list-contact">
+              <i class="far fa-envelope"></i>
+              <a
+                class="footer-contact"
+                href="mailto: example@yahoo.com?subject=Email Subject"
+                target="_blank"
+                >example@yahoo.com</a
+              >
+            </li>
+            <li class="list-contact">
+              <i class="fas fa-phone"></i>
+              <a
+                class="footer-contact"
+                href="tel:+0 320 422 4254"
+                target="_blank"
+                >+0 320 422 4254</a
+              >
+            </li>
+            <li class="list-contact">
+              <i class="fas fa-map-marker-alt"></i>
+              <a
+                class="footer-contact"
+                target="_blank"
+                href="https://www.google.com/maps/place/Main+St,+Illinois,+ამერიკის+შეერთებული+შტატები/@42.0334735,-87.7495119,17z/data=!4m2!3m1!1s0x880fcf125159251d:0x3a1596f87b6d774f"
+                >Main Str Chicago Ilinois</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="second-footer-div">
+        <span class="copyright">
+          Copyright ©2020 All rights reserved | This template is made with love
+          by
+        </span>
+        <a class="web" href="https://www.google.com/" target="_blank"
+          >www.portfolioname.com</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
